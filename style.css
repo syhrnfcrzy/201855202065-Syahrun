@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+body {
+    background: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_side {
+    position: relative;
+    background: tomato;
+    padding: 40px;
+
+}
+
+.profiletext {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px rgba(255, 255, 255, 0.2);
+}
+
+.profiletext .imgBx {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profiletext .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profiletext h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    color: rgb(20, 102, 134);
+
+}
+
+.profiletext span {
+    font-size: 0.8em;
+    font-weight: 300;
+    color: black;
+
+}
+
+.contactinfo {
+    padding-top: 40px;
+
+}
+
+.contactinfo ul {
+    position: relative;
+
+}
+.contactinfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contactinfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: black;
+}
+
+.contactinfo ul li span {
+    color: black;
+    font-weight: 300;
+
+}
+
+.contactinfo ul li a {
+    color: black;
+}
+
+.contactinfo.pembelajaran {
+    margin-bottom: 15px;
+    align-content: justify;
+}
+
+.contactinfo.pembelajaran h5 {
+    font-weight: 300;
+    font-style: normal;
+    color: black;
+}
+
+.contactinfo.pembelajaran h4 {
+    padding-top: 5px;
+
+}
+
+.contactinfo.hobi .percent {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:black;
+    display: block;
+    margin-top: 8px;
+
+}
+
+.contactinfo.hobi .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: white;
+}
+
+.container .right_side {
+    position: relative;
+    background: white;
+    padding: 40px;
+
+}
+.about {
+    margin-bottom: 40px;
+}
+
+.about:last-child {
+    margin-bottom: 0;
+}
+.title2 {
+    color: rgb(20, 102, 134);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+.about .box .Pengalaman {
+    min-width: 150px;
+}
+.about .box .Pengalaman h5 {
+    text-transform: uppercase;
+    color:black;
+    font-weight: 600;
+    padding: 3px;
+}
+.about_skills .box {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.about_skills .box h4 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 500;
+}
+.about_skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: tomato;
+}
+.about_skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: black;
+}
+.pembatas2 {
+    border: 3px solid black;
+    border-radius: 1px;
+    margin-top: 50px;
+
+}
+
